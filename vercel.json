@@ -4,7 +4,7 @@
       "src": "demo.py",
       "dest": ".vercel/output",
       "framework": "none",
-      "command": "chainlit run demo.py"
+      "buildCommand": "chainlit run demo.py"
     }
   ]
 }
