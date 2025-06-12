@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-# chainlit
+chainlit
 # langchain 
 # langchain_google_genai
 # google-generativeai 
