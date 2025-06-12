@@ -1,0 +1,9 @@
+chainlit run demo.py -w
+chainlit hello
+google genai cradentiosa required
+chainlit run main.py -w
+
+
+
+try to launch on vercel
+check fastapi1 project 's json file
