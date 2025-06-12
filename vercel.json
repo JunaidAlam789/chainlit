@@ -3,8 +3,8 @@
     {
       "src": "demo.py",
       "dest": ".vercel/output",
-      "framework": "none",
-      "buildCommand": "chainlit run demo.py"
+      "framework": "none"
+      
     }
   ]
 }
