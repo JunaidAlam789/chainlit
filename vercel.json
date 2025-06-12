@@ -1,10 +1,11 @@
 {
     "builds": [{
-        "src": "api/demo.py",
-        "use": "@vercel/python"
+        "src": "demo.py",
+        "use": "@vercel/python",
+        "command": "chainlit run demo.py"
         }],
     "routes": [{
         "src": "/(.*)",
-        "dest": "api/demo.py"
+        "dest": "demo.py"
     }]
 }
