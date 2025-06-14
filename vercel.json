@@ -5,11 +5,8 @@
         }],
     "routes": [{
         "src": "/(.*)",
-        "dest": "main.py"
-    },
-    { "src": "/apichain", "dest": "main.py" }
-
-
+        "dest": "api/main.py"
+    }
     ]
 
 
