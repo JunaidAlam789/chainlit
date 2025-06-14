@@ -1,11 +1,13 @@
-#from fastapi import FastAPI
-from chainlit.utils import mount_chainlit, app
+from fastapi import FastAPI
+from chainlit.utils import mount_chainlit
 
 
-#app = FastAPI()
+app = FastAPI()
               
-# @app2.get("/app")
-# def read_main():
-#     return {"message": "Hello World from main app"}
+@app.get("/app")
+def read_main():
+    return {"message": "Hello World from main app"}
 
-mount_chainlit(app=app, target="my_cl_app.py", path="/chainlit")
+@app.get("/chainlit")
+def chainie():
+    mount_chainlit(app=app, target="my_cl_app.py", path="/chainlit")
