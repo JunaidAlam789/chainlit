@@ -17,9 +17,9 @@ from packaging import version
 from starlette.middleware.base import BaseHTTPMiddleware
 
 from chainlit.auth import ensure_jwt_secret
-from chainlit.context import context
-from chainlit.logger import logger
-from chainlit.message import ErrorMessage
+# from chainlit.context import context
+# from chainlit.logger import logger
+# from chainlit.message import ErrorMessage
 
 def mount_chainlit(app: FastAPI, target: str, path="/chainlit"):
     from chainlit.config import config, load_module
@@ -77,4 +77,4 @@ app2 = FastAPI(root_path="/")
 def read_main():
     return {"message": "Hello World from main app"}
 
-mount_chainlit(app=app2, target="my_cl_app.py", path="/chainlit")
+#mount_chainlit(app=app2, target="my_cl_app.py", path="/chainlit")
