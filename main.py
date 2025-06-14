@@ -13,7 +13,7 @@ def read_main():
 def chainie():  
     return {"message": "Hello World /app or /chainlit route"}
 
-@app.get("/apichain")
+@app.get("/appchain")
 def chainiee():  
     return {"message": "Hello World apichain route"}
 
