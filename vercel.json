@@ -10,6 +10,10 @@
     
     ],
     "routes": [{
+        "src": "/",   
+        "dest": "api/main.py"
+    },
+    {
         "src": "/app",   
         "dest": "api/main.py"
     },
