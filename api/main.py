@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 
 
-app = FastAPI()
+app = FastAPI(routepath="/api")
               
 @app.get("/app")
 def read_main():
