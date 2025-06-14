@@ -7,7 +7,7 @@
         "src": "/(.*)",
         "dest": "api/main.py"
     },
-    { "src": "/api2", "dest": "api/main.py" }
+    { "src": "/apichain", "dest": "main.py" }
 
 
     ]

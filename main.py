@@ -13,4 +13,8 @@ def read_main():
 def chainie():  
     return {"message": "Hello World /app or /chainlit"}
 
+@app.get("/apichain")
+def chainiee():  
+    return {"message": "Hello World apichain"}
+
 #mount_chainlit(app=app, target="my_cl_app.py", path="/chainlit")
