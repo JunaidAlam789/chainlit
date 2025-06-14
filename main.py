@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from chainlit.utils import mount_chainlit
 
-app = FastAPI()
-
-
+app = FastAPI(root_path="/")
+              
 @app.get("/app")
 def read_main():
     return {"message": "Hello World from main app"}
